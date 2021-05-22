@@ -1,0 +1,16 @@
+.grid-container {
+      
+    border: 3px solid rgb(10, 0, 0);
+    background-color: rgb(190, 214, 219);
+    height:550px; 
+    margin-top: 50px;
+    margin-left: 200px; 
+    margin-right: 200px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:rgb(0, 0, 0);
+}
+.space{
+    margin-bottom:1em ;
+  }

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
+    <!-- My own CSS -->
+    <link href = "style.css" rel="stylesheet">
+    <link href="all.css" rel="stylesheet"> <!--load all styles -->
+
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class = "grid-container d-flex justify-content-center">
+     
+        <form>
+          <div class="space">
+          <h1 class="text-center">Registration Form</h1>
+          </div>
+          <!-- Firstname -->
+          <div class="row form-group">
+            <div class="col-4">
+            <label for="input-group-text" class="col-form-label">First Name</label>
+          </div>
+          <div class="col-8 space">
+            <label class="visually-hidden" for="inlineFormInputGroupUsername">Firstname</label>
+            <div class="input-group">
+              <div class="input-group-text"><i class="fas fa-user"></i></div>
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="First Name">
+            </div>
+          </div>
+          </div>
+
+          <!-- Lastname -->
+          
+            <div class="row form-group">
+            <div class="col-4">
+              <label for="input-group-text" class="col-form-label">Last Name</label>
+            </div>
+            <div class="col-8 space">
+              <label class="visually-hidden" for="inlineFormInputGroupUsername">Lastname</label>
+              <div class="input-group">
+                <div class="input-group-text"><i class="fas fa-user"></i></div>
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Last Name">
+              </div>
+          </div>
+          </div>
+
+
+          <!-- Department/Office ddl -->
+          
+            <div class="row form-group">
+            <div class="col-4">
+              <label for="input-group-text" class="col-form-label">Department / Office</label>
+            </div>
+            <div class="col-8 space">
+              <label class="visually-hidden" for="inlineFormInputGroupUsername">Department / Office</label>
+              <div class="input-group">
+                <div class="input-group-text"><i class="fas fa-list"></i></div>
+                  <select class="form-select" aria-label="Default select example">
+                      <option selected>Select your Department / Office</option>
+                      <option value="1">Department One</option>
+                      <option value="2">Department Two</option>
+                      <option value="3">Department Three</option>
+                  </select>
+              </div>   
+            </div> 
+            </div>
+
+            <!-- /username -->
+            
+            <div class="row form-group">
+                <div class="col-4">
+                  <label for="input-group-text" class="col-form-label">Username</label>
+                </div>
+              
+                <div class="col-8 space">
+                  <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-text"><i class="fas fa-user"></i></div>
+                      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                    </div>
+                </div>
+            </div>
+
+              <!-- Password -->
+              
+                <div class="row form-group">
+            <div class="col-4">
+                  <label for="input-group-text" class="col-form-label">Password</label>
+                </div>
+                <div class="col-8 space">
+                  <label class="visually-hidden" for="inlineFormInputGroupUsername">password</label>
+                  <div class="input-group">
+                  <div class="input-group-text"><i class="fas fa-user"></i></div>
+                  <input type="password" class="form-control" id="inputPassword3">
+                </div>
+                </div>
+                </div>
+
+              
+              <!-- Confirm Password -->
+              
+                <div class="row form-group">
+            <div class="col-4">
+                  <label for="input-group-text" class="col-form-label">Confirm Password</label>
+                </div>
+                <div class="col-8 space">
+                  <label class="visually-hidden" for="inlineFormInputGroupUsername">password</label>
+                <div class="input-group">
+                  <div class="input-group-text"><i class="fas fa-user"></i></div>
+                  <input type="password" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+            </div>
+              
+              
+
+              
+              <!-- Email -->
+              
+                <div class="row form-group">
+                    <div class="col-4">
+                      <label for="input-group-text" class="col-form-label">Email</label>
+                    </div>
+                    <div class="col-8 space">
+                      <label class="visually-hidden" for="inlineFormInputGroupUEmail">Email</label>
+                        <div class="input-group">
+                           <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+                           <input type="text" class="form-control" id="inlineFormInputGroupEmail" placeholder="E-mail Address">
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Number -->
+              
+                <div class="row form-group">
+                    <div class="col-4">
+                      <label for="input-group-text text-centre" class="col-form-label">Contact No.</label>
+                    </div>
+                    <div class="col-8 space">
+                      <label class="visually-hidden" for="inlineFormInputGroupUEmail">Email</label>
+                         <div class="input-group">
+                           <div class="input-group-text"><i class="fas fa-phone-alt"></i></div>
+                           <input type="tel" class="form-control" id="inlineFormInputGroupEmail" placeholder="(639)">
+                         </div>
+                    </div>
+                  </div>
+
+                <div class = "d-flex justify-content-center">
+                  <button type="button" class="btn btn-warning" margin: 50px>Submit <i class="fab fa-telegram-plane"></i></button>
+                </div>
+      
+        </form>
+      
+       
+    </div>     
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
